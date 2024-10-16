@@ -5,14 +5,30 @@ import Services from './components/Services';
 import Haircuts from './components/Haircuts';
 import Footer from './components/Footer';
 import './App.css'; // Main CSS file for global styles
+import ScrollSection from './components/ScrollSection';
 
 function App() {
   return (
     <div className="App">
+
+      <ScrollSection>
       <Header />
-      <About />
-      <Services />
+      </ScrollSection>
+
+
+      <ScrollSection>
       <Haircuts />
+      </ScrollSection>
+
+      <ScrollSection>
+      <Services />
+      </ScrollSection>
+
+      <ScrollSection>
+      <About />
+      </ScrollSection>
+
+
       <Footer />
     </div>
   );

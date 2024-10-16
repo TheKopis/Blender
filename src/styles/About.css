@@ -3,8 +3,7 @@
 #about {
   text-align: center;
   padding: 50px 0;
-  background-color: #333;
-  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */  color: white;
 }
 
 h2 {

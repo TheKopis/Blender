@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 header {
-  background-color: #222;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
   padding: 20px;
   text-align: center;
+  opacity: 80;
 }
 
 h1 {
@@ -21,6 +22,7 @@ p {
 }
 
 .logo {
+  transform: scale(1.2);
   width: 150px;
   height: auto;
   border-radius: 50%;

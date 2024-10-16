@@ -21,7 +21,7 @@ const Haircuts = () => {
           <img src={haircut3} alt="Haircut 3" />
           <p>Example 3</p>
         </div>
-        <video className="haircut-video" src="your-video.mp4" loop muted />
+        {/* <video className="haircut-video" src="your-video.mp4" loop muted /> */}
       </div>
     </section>
   );
